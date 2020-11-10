@@ -3,7 +3,7 @@ Tercera tarea del curso Modelación y Computación Grafica, otoño 2020, usando 
 tipos de peces, donde cada tipo se encuentra en su zona de temperatura preferida, para esto se resuelve una ecuacion diferencial parcial en tres dimensiones, simulando la transferencia de calor en el acuario.
 
 Para ejecutar el programa debe tener instalado Python 3.5 o superior, y las librerias numpy, pyopengl, glfw, pillow y scipy.
-Primero se tiene que resolver la EDP ejecutando en el directorio code :``python aquarium-solver.py problem-setup.json``, donde el ultimo argumento corresponde al archivo que contiene los parametros del acuario y valores de temperaturas. Luego se ejecuta ``python aquarium-view.py view-setup.json`` para iniciar la visualizacion, donde el ultimo argumento es el archivo que contiene los paranetros de los tipos de peces. Se recomienda usar los valores de los archivo ya dados, por lo que solo necesita correr el ultimo comando para apreciar el programa.
+Primero se tiene que resolver la EDP ejecutando en el directorio code :``python aquarium-solver.py problem-setup.json``, donde el ultimo argumento corresponde al archivo que contiene los parametros del acuario y valores de temperaturas. Luego se ejecuta ``python aquarium-view.py view-setup.json`` para iniciar la visualizacion, donde el ultimo argumento es el archivo que contiene los parametros de los tipos de peces. Se recomienda usar los valores de los archivo ya dados, por lo que solo necesita correr el ultimo comando para apreciar el programa.
 
 Video de muestra:
 
